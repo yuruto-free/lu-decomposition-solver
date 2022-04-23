@@ -1,2 +1,38 @@
-# lu-decomposition-solver
-LU Decomposition and Solver
+# LU分解・ソルバー
+以下の2点を実行する機能を提供する。
+* LU分解の実行
+* LU分解した行列を用いた連立一次方程式の求解
+
+## 環境
+* コンパイラ
+
+    GCC
+
+* ライブラリ
+
+    math.h
+
+* 必要なコマンド
+
+    make
+
+## ビルド
+以下のコマンドを実行する。
+
+```sh
+make
+```
+
+## 実行
+以下のコマンドを実行する。
+
+```sh
+./householder-qr
+```
+
+## 実行ファイルの削除
+以下のコマンドを実行する。
+
+```sh
+make clean
+```
