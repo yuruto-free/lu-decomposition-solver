@@ -27,7 +27,7 @@ make
 以下のコマンドを実行する。
 
 ```sh
-./householder-qr
+./lu-decomp-solver
 ```
 
 ## 実行ファイルの削除
